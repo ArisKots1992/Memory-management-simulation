@@ -1,0 +1,1340 @@
+Buddy
+Memory Size = 512
+Simulation Time = 300
+
+Time = 6
+size = 20
+lifetime = 1
+Time = 7
+I just sent a (fake or correct) VP_STOP wtih ID : 1006
+=========MEMORY=========
+[Used SpaceID: 1006 , Start: 1 , End: 32 , Size: 32]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Free SpaceID: -1 , Start: 65 , End: 128 , Size: 64]
+[Free SpaceID: -1 , Start: 129 , End: 256 , Size: 128]
+[Free SpaceID: -1 , Start: 257 , End: 512 , Size: 256]
+=========QUEUE=========
+--[EMPTY]--
+Now i will VP STOOP   ---- > 1006
+=========MEMORY=========
+[Free SpaceID: -1 , Start: 1 , End: 512 , Size: 512]
+=========QUEUE=========
+--[EMPTY]--
+Time = 12
+size = 37
+lifetime = 20
+=========MEMORY=========
+[Used SpaceID: 1012 , Start: 1 , End: 64 , Size: 64]
+[Free SpaceID: -1 , Start: 65 , End: 128 , Size: 64]
+[Free SpaceID: -1 , Start: 129 , End: 256 , Size: 128]
+[Free SpaceID: -1 , Start: 257 , End: 512 , Size: 256]
+=========QUEUE=========
+--[EMPTY]--
+Time = 21
+size = 51
+lifetime = 44
+=========MEMORY=========
+[Used SpaceID: 1012 , Start: 1 , End: 64 , Size: 64]
+[Used SpaceID: 1021 , Start: 65 , End: 128 , Size: 64]
+[Free SpaceID: -1 , Start: 129 , End: 256 , Size: 128]
+[Free SpaceID: -1 , Start: 257 , End: 512 , Size: 256]
+=========QUEUE=========
+--[EMPTY]--
+Time = 23
+size = 29
+lifetime = 50
+=========MEMORY=========
+[Used SpaceID: 1012 , Start: 1 , End: 64 , Size: 64]
+[Used SpaceID: 1021 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1023 , Start: 129 , End: 160 , Size: 32]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Free SpaceID: -1 , Start: 193 , End: 256 , Size: 64]
+[Free SpaceID: -1 , Start: 257 , End: 512 , Size: 256]
+=========QUEUE=========
+--[EMPTY]--
+Time = 32
+I just sent a (fake or correct) VP_STOP wtih ID : 1012
+Time = 33
+size = 35
+lifetime = 19
+Now i will VP STOOP   ---- > 1012
+=========MEMORY=========
+[Free SpaceID: -1 , Start: 1 , End: 64 , Size: 64]
+[Used SpaceID: 1021 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1023 , Start: 129 , End: 160 , Size: 32]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Free SpaceID: -1 , Start: 193 , End: 256 , Size: 64]
+[Free SpaceID: -1 , Start: 257 , End: 512 , Size: 256]
+=========QUEUE=========
+--[EMPTY]--
+=========MEMORY=========
+[Used SpaceID: 1033 , Start: 1 , End: 64 , Size: 64]
+[Used SpaceID: 1021 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1023 , Start: 129 , End: 160 , Size: 32]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Free SpaceID: -1 , Start: 193 , End: 256 , Size: 64]
+[Free SpaceID: -1 , Start: 257 , End: 512 , Size: 256]
+=========QUEUE=========
+--[EMPTY]--
+Time = 44
+size = 48
+lifetime = 46
+=========MEMORY=========
+[Used SpaceID: 1033 , Start: 1 , End: 64 , Size: 64]
+[Used SpaceID: 1021 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1023 , Start: 129 , End: 160 , Size: 32]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1044 , Start: 193 , End: 256 , Size: 64]
+[Free SpaceID: -1 , Start: 257 , End: 512 , Size: 256]
+=========QUEUE=========
+--[EMPTY]--
+Time = 47
+size = 81
+lifetime = 12
+=========MEMORY=========
+[Used SpaceID: 1033 , Start: 1 , End: 64 , Size: 64]
+[Used SpaceID: 1021 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1023 , Start: 129 , End: 160 , Size: 32]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1044 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1047 , Start: 257 , End: 384 , Size: 128]
+[Free SpaceID: -1 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 50
+size = 7
+lifetime = 2
+=========MEMORY=========
+[Used SpaceID: 1033 , Start: 1 , End: 64 , Size: 64]
+[Used SpaceID: 1021 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1023 , Start: 129 , End: 160 , Size: 32]
+[Used SpaceID: 1050 , Start: 161 , End: 168 , Size: 8]
+[Free SpaceID: -1 , Start: 169 , End: 176 , Size: 8]
+[Free SpaceID: -1 , Start: 177 , End: 192 , Size: 16]
+[Used SpaceID: 1044 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1047 , Start: 257 , End: 384 , Size: 128]
+[Free SpaceID: -1 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 52
+I just sent a (fake or correct) VP_STOP wtih ID : 1033
+Time = 53
+I just sent a (fake or correct) VP_STOP wtih ID : 1050
+Now i will VP STOOP   ---- > 1033
+=========MEMORY=========
+[Free SpaceID: -1 , Start: 1 , End: 64 , Size: 64]
+[Used SpaceID: 1021 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1023 , Start: 129 , End: 160 , Size: 32]
+[Used SpaceID: 1050 , Start: 161 , End: 168 , Size: 8]
+[Free SpaceID: -1 , Start: 169 , End: 176 , Size: 8]
+[Free SpaceID: -1 , Start: 177 , End: 192 , Size: 16]
+[Used SpaceID: 1044 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1047 , Start: 257 , End: 384 , Size: 128]
+[Free SpaceID: -1 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 54
+size = 90
+lifetime = 38
+Now i will VP STOOP   ---- > 1050
+=========MEMORY=========
+[Free SpaceID: -1 , Start: 1 , End: 64 , Size: 64]
+[Used SpaceID: 1021 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1023 , Start: 129 , End: 160 , Size: 32]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1044 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1047 , Start: 257 , End: 384 , Size: 128]
+[Free SpaceID: -1 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+=========MEMORY=========
+[Free SpaceID: -1 , Start: 1 , End: 64 , Size: 64]
+[Used SpaceID: 1021 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1023 , Start: 129 , End: 160 , Size: 32]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1044 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1047 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1054 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 56
+size = 27
+lifetime = 13
+=========MEMORY=========
+[Used SpaceID: 1056 , Start: 1 , End: 32 , Size: 32]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1021 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1023 , Start: 129 , End: 160 , Size: 32]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1044 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1047 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1054 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 59
+I just sent a (fake or correct) VP_STOP wtih ID : 1047
+Now i will VP STOOP   ---- > 1047
+=========MEMORY=========
+[Used SpaceID: 1056 , Start: 1 , End: 32 , Size: 32]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1021 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1023 , Start: 129 , End: 160 , Size: 32]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1044 , Start: 193 , End: 256 , Size: 64]
+[Free SpaceID: -1 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1054 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 63
+size = 51
+lifetime = 6
+=========MEMORY=========
+[Used SpaceID: 1056 , Start: 1 , End: 32 , Size: 32]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1021 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1023 , Start: 129 , End: 160 , Size: 32]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1044 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1063 , Start: 257 , End: 320 , Size: 64]
+[Free SpaceID: -1 , Start: 321 , End: 384 , Size: 64]
+[Used SpaceID: 1054 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 65
+I just sent a (fake or correct) VP_STOP wtih ID : 1021
+Now i will VP STOOP   ---- > 1021
+=========MEMORY=========
+[Used SpaceID: 1056 , Start: 1 , End: 32 , Size: 32]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Free SpaceID: -1 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1023 , Start: 129 , End: 160 , Size: 32]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1044 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1063 , Start: 257 , End: 320 , Size: 64]
+[Free SpaceID: -1 , Start: 321 , End: 384 , Size: 64]
+[Used SpaceID: 1054 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 69
+I just sent a (fake or correct) VP_STOP wtih ID : 1056
+Time = 70
+I just sent a (fake or correct) VP_STOP wtih ID : 1063
+Now i will VP STOOP   ---- > 1056
+=========MEMORY=========
+[Free SpaceID: -1 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1023 , Start: 129 , End: 160 , Size: 32]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1044 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1063 , Start: 257 , End: 320 , Size: 64]
+[Free SpaceID: -1 , Start: 321 , End: 384 , Size: 64]
+[Used SpaceID: 1054 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Now i will VP STOOP   ---- > 1063
+=========MEMORY=========
+[Free SpaceID: -1 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1023 , Start: 129 , End: 160 , Size: 32]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1044 , Start: 193 , End: 256 , Size: 64]
+[Free SpaceID: -1 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1054 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 72
+size = 5
+lifetime = 42
+Time = 73
+I just sent a (fake or correct) VP_STOP wtih ID : 1023
+=========MEMORY=========
+[Used SpaceID: 1072 , Start: 1 , End: 8 , Size: 8]
+[Free SpaceID: -1 , Start: 9 , End: 16 , Size: 8]
+[Free SpaceID: -1 , Start: 17 , End: 32 , Size: 16]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Free SpaceID: -1 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1023 , Start: 129 , End: 160 , Size: 32]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1044 , Start: 193 , End: 256 , Size: 64]
+[Free SpaceID: -1 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1054 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Now i will VP STOOP   ---- > 1023
+=========MEMORY=========
+[Used SpaceID: 1072 , Start: 1 , End: 8 , Size: 8]
+[Free SpaceID: -1 , Start: 9 , End: 16 , Size: 8]
+[Free SpaceID: -1 , Start: 17 , End: 32 , Size: 16]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Free SpaceID: -1 , Start: 65 , End: 192 , Size: 128]
+[Used SpaceID: 1044 , Start: 193 , End: 256 , Size: 64]
+[Free SpaceID: -1 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1054 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 77
+size = 49
+lifetime = 27
+=========MEMORY=========
+[Used SpaceID: 1072 , Start: 1 , End: 8 , Size: 8]
+[Free SpaceID: -1 , Start: 9 , End: 16 , Size: 8]
+[Free SpaceID: -1 , Start: 17 , End: 32 , Size: 16]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1077 , Start: 65 , End: 128 , Size: 64]
+[Free SpaceID: -1 , Start: 129 , End: 192 , Size: 64]
+[Used SpaceID: 1044 , Start: 193 , End: 256 , Size: 64]
+[Free SpaceID: -1 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1054 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 80
+size = 8
+lifetime = 30
+Time = 81
+size = 91
+lifetime = 8
+=========MEMORY=========
+[Used SpaceID: 1072 , Start: 1 , End: 8 , Size: 8]
+[Used SpaceID: 1080 , Start: 9 , End: 16 , Size: 8]
+[Free SpaceID: -1 , Start: 17 , End: 32 , Size: 16]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1077 , Start: 65 , End: 128 , Size: 64]
+[Free SpaceID: -1 , Start: 129 , End: 192 , Size: 64]
+[Used SpaceID: 1044 , Start: 193 , End: 256 , Size: 64]
+[Free SpaceID: -1 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1054 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 82
+size = 11
+lifetime = 11
+=========MEMORY=========
+[Used SpaceID: 1072 , Start: 1 , End: 8 , Size: 8]
+[Used SpaceID: 1080 , Start: 9 , End: 16 , Size: 8]
+[Free SpaceID: -1 , Start: 17 , End: 32 , Size: 16]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1077 , Start: 65 , End: 128 , Size: 64]
+[Free SpaceID: -1 , Start: 129 , End: 192 , Size: 64]
+[Used SpaceID: 1044 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1081 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1054 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+=========MEMORY=========
+[Used SpaceID: 1072 , Start: 1 , End: 8 , Size: 8]
+[Used SpaceID: 1080 , Start: 9 , End: 16 , Size: 8]
+[Used SpaceID: 1082 , Start: 17 , End: 32 , Size: 16]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1077 , Start: 65 , End: 128 , Size: 64]
+[Free SpaceID: -1 , Start: 129 , End: 192 , Size: 64]
+[Used SpaceID: 1044 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1081 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1054 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 87
+size = 86
+lifetime = 30
+=========MEMORY=========
+[Used SpaceID: 1072 , Start: 1 , End: 8 , Size: 8]
+[Used SpaceID: 1080 , Start: 9 , End: 16 , Size: 8]
+[Used SpaceID: 1082 , Start: 17 , End: 32 , Size: 16]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1077 , Start: 65 , End: 128 , Size: 64]
+[Free SpaceID: -1 , Start: 129 , End: 192 , Size: 64]
+[Used SpaceID: 1044 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1081 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1054 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1087 , Size: 86
+Time = 89
+I just sent a (fake or correct) VP_STOP wtih ID : 1081
+Time = 90
+I just sent a (fake or correct) VP_STOP wtih ID : 1044
+Now i will VP STOOP   ---- > 1081
+=========MEMORY=========
+[Used SpaceID: 1072 , Start: 1 , End: 8 , Size: 8]
+[Used SpaceID: 1080 , Start: 9 , End: 16 , Size: 8]
+[Used SpaceID: 1082 , Start: 17 , End: 32 , Size: 16]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1077 , Start: 65 , End: 128 , Size: 64]
+[Free SpaceID: -1 , Start: 129 , End: 192 , Size: 64]
+[Used SpaceID: 1044 , Start: 193 , End: 256 , Size: 64]
+[Free SpaceID: -1 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1054 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1087 , Size: 86
+Now i will VP STOOP   ---- > 1044
+=========MEMORY=========
+[Used SpaceID: 1072 , Start: 1 , End: 8 , Size: 8]
+[Used SpaceID: 1080 , Start: 9 , End: 16 , Size: 8]
+[Used SpaceID: 1082 , Start: 17 , End: 32 , Size: 16]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1077 , Start: 65 , End: 128 , Size: 64]
+[Free SpaceID: -1 , Start: 129 , End: 384 , Size: 256]
+[Used SpaceID: 1054 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1087 , Size: 86
+Time = 92
+I just sent a (fake or correct) VP_STOP wtih ID : 1054
+Time = 93
+I just sent a (fake or correct) VP_STOP wtih ID : 1082
+Now i will VP STOOP   ---- > 1054
+=========MEMORY=========
+[Used SpaceID: 1072 , Start: 1 , End: 8 , Size: 8]
+[Used SpaceID: 1080 , Start: 9 , End: 16 , Size: 8]
+[Used SpaceID: 1082 , Start: 17 , End: 32 , Size: 16]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1077 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1087 , Start: 129 , End: 256 , Size: 128]
+[Free SpaceID: -1 , Start: 257 , End: 512 , Size: 256]
+=========QUEUE=========
+--[EMPTY]--
+Time = 94
+size = 58
+lifetime = 29
+Now i will VP STOOP   ---- > 1082
+=========MEMORY=========
+[Used SpaceID: 1072 , Start: 1 , End: 8 , Size: 8]
+[Used SpaceID: 1080 , Start: 9 , End: 16 , Size: 8]
+[Free SpaceID: -1 , Start: 17 , End: 32 , Size: 16]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1077 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1087 , Start: 129 , End: 256 , Size: 128]
+[Free SpaceID: -1 , Start: 257 , End: 512 , Size: 256]
+=========QUEUE=========
+--[EMPTY]--
+=========MEMORY=========
+[Used SpaceID: 1072 , Start: 1 , End: 8 , Size: 8]
+[Used SpaceID: 1080 , Start: 9 , End: 16 , Size: 8]
+[Free SpaceID: -1 , Start: 17 , End: 32 , Size: 16]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1077 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1087 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1094 , Start: 257 , End: 320 , Size: 64]
+[Free SpaceID: -1 , Start: 321 , End: 384 , Size: 64]
+[Free SpaceID: -1 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 97
+size = 76
+lifetime = 12
+Time = 98
+size = 7
+lifetime = 49
+=========MEMORY=========
+[Used SpaceID: 1072 , Start: 1 , End: 8 , Size: 8]
+[Used SpaceID: 1080 , Start: 9 , End: 16 , Size: 8]
+[Free SpaceID: -1 , Start: 17 , End: 32 , Size: 16]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1077 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1087 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1094 , Start: 257 , End: 320 , Size: 64]
+[Free SpaceID: -1 , Start: 321 , End: 384 , Size: 64]
+[Used SpaceID: 1097 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+=========MEMORY=========
+[Used SpaceID: 1072 , Start: 1 , End: 8 , Size: 8]
+[Used SpaceID: 1080 , Start: 9 , End: 16 , Size: 8]
+[Used SpaceID: 1098 , Start: 17 , End: 24 , Size: 8]
+[Free SpaceID: -1 , Start: 25 , End: 32 , Size: 8]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1077 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1087 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1094 , Start: 257 , End: 320 , Size: 64]
+[Free SpaceID: -1 , Start: 321 , End: 384 , Size: 64]
+[Used SpaceID: 1097 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 104
+I just sent a (fake or correct) VP_STOP wtih ID : 1077
+Now i will VP STOOP   ---- > 1077
+=========MEMORY=========
+[Used SpaceID: 1072 , Start: 1 , End: 8 , Size: 8]
+[Used SpaceID: 1080 , Start: 9 , End: 16 , Size: 8]
+[Used SpaceID: 1098 , Start: 17 , End: 24 , Size: 8]
+[Free SpaceID: -1 , Start: 25 , End: 32 , Size: 8]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Free SpaceID: -1 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1087 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1094 , Start: 257 , End: 320 , Size: 64]
+[Free SpaceID: -1 , Start: 321 , End: 384 , Size: 64]
+[Used SpaceID: 1097 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 109
+I just sent a (fake or correct) VP_STOP wtih ID : 1097
+Time = 110
+I just sent a (fake or correct) VP_STOP wtih ID : 1080
+Now i will VP STOOP   ---- > 1097
+=========MEMORY=========
+[Used SpaceID: 1072 , Start: 1 , End: 8 , Size: 8]
+[Used SpaceID: 1080 , Start: 9 , End: 16 , Size: 8]
+[Used SpaceID: 1098 , Start: 17 , End: 24 , Size: 8]
+[Free SpaceID: -1 , Start: 25 , End: 32 , Size: 8]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Free SpaceID: -1 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1087 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1094 , Start: 257 , End: 320 , Size: 64]
+[Free SpaceID: -1 , Start: 321 , End: 384 , Size: 64]
+[Free SpaceID: -1 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Now i will VP STOOP   ---- > 1080
+=========MEMORY=========
+[Used SpaceID: 1072 , Start: 1 , End: 8 , Size: 8]
+[Free SpaceID: -1 , Start: 9 , End: 16 , Size: 8]
+[Used SpaceID: 1098 , Start: 17 , End: 24 , Size: 8]
+[Free SpaceID: -1 , Start: 25 , End: 32 , Size: 8]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Free SpaceID: -1 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1087 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1094 , Start: 257 , End: 320 , Size: 64]
+[Free SpaceID: -1 , Start: 321 , End: 384 , Size: 64]
+[Free SpaceID: -1 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 112
+size = 52
+lifetime = 20
+=========MEMORY=========
+[Used SpaceID: 1072 , Start: 1 , End: 8 , Size: 8]
+[Free SpaceID: -1 , Start: 9 , End: 16 , Size: 8]
+[Used SpaceID: 1098 , Start: 17 , End: 24 , Size: 8]
+[Free SpaceID: -1 , Start: 25 , End: 32 , Size: 8]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1112 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1087 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1094 , Start: 257 , End: 320 , Size: 64]
+[Free SpaceID: -1 , Start: 321 , End: 384 , Size: 64]
+[Free SpaceID: -1 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 114
+I just sent a (fake or correct) VP_STOP wtih ID : 1072
+Time = 115
+size = 75
+lifetime = 10
+Now i will VP STOOP   ---- > 1072
+=========MEMORY=========
+[Free SpaceID: -1 , Start: 1 , End: 16 , Size: 16]
+[Used SpaceID: 1098 , Start: 17 , End: 24 , Size: 8]
+[Free SpaceID: -1 , Start: 25 , End: 32 , Size: 8]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1112 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1087 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1094 , Start: 257 , End: 320 , Size: 64]
+[Free SpaceID: -1 , Start: 321 , End: 384 , Size: 64]
+[Free SpaceID: -1 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+=========MEMORY=========
+[Free SpaceID: -1 , Start: 1 , End: 16 , Size: 16]
+[Used SpaceID: 1098 , Start: 17 , End: 24 , Size: 8]
+[Free SpaceID: -1 , Start: 25 , End: 32 , Size: 8]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1112 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1087 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1094 , Start: 257 , End: 320 , Size: 64]
+[Free SpaceID: -1 , Start: 321 , End: 384 , Size: 64]
+[Used SpaceID: 1115 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 117
+I just sent a (fake or correct) VP_STOP wtih ID : 1087
+=========MEMORY=========
+[Free SpaceID: -1 , Start: 1 , End: 16 , Size: 16]
+[Used SpaceID: 1098 , Start: 17 , End: 24 , Size: 8]
+[Free SpaceID: -1 , Start: 25 , End: 32 , Size: 8]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1112 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1087 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1094 , Start: 257 , End: 320 , Size: 64]
+[Free SpaceID: -1 , Start: 321 , End: 384 , Size: 64]
+[Used SpaceID: 1115 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 119
+size = 74
+lifetime = 29
+=========MEMORY=========
+[Free SpaceID: -1 , Start: 1 , End: 16 , Size: 16]
+[Used SpaceID: 1098 , Start: 17 , End: 24 , Size: 8]
+[Free SpaceID: -1 , Start: 25 , End: 32 , Size: 8]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1112 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1087 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1094 , Start: 257 , End: 320 , Size: 64]
+[Free SpaceID: -1 , Start: 321 , End: 384 , Size: 64]
+[Used SpaceID: 1115 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1119 , Size: 74
+Time = 123
+I just sent a (fake or correct) VP_STOP wtih ID : 1094
+Time = 124
+size = 94
+lifetime = 36
+Now i will VP STOOP   ---- > 1094
+=========MEMORY=========
+[Free SpaceID: -1 , Start: 1 , End: 16 , Size: 16]
+[Used SpaceID: 1098 , Start: 17 , End: 24 , Size: 8]
+[Free SpaceID: -1 , Start: 25 , End: 32 , Size: 8]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1112 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1087 , Start: 129 , End: 256 , Size: 128]
+[Free SpaceID: -1 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1115 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1119 , Size: 74
+Time = 125
+I just sent a (fake or correct) VP_STOP wtih ID : 1115
+=========MEMORY=========
+[Free SpaceID: -1 , Start: 1 , End: 16 , Size: 16]
+[Used SpaceID: 1098 , Start: 17 , End: 24 , Size: 8]
+[Free SpaceID: -1 , Start: 25 , End: 32 , Size: 8]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1112 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1087 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1124 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1115 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1119 , Size: 74
+Now i will VP STOOP   ---- > 1115
+=========MEMORY=========
+[Free SpaceID: -1 , Start: 1 , End: 16 , Size: 16]
+[Used SpaceID: 1098 , Start: 17 , End: 24 , Size: 8]
+[Free SpaceID: -1 , Start: 25 , End: 32 , Size: 8]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1112 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1087 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1124 , Start: 257 , End: 384 , Size: 128]
+[Free SpaceID: -1 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1119 , Size: 74
+Time = 132
+I just sent a (fake or correct) VP_STOP wtih ID : 1112
+Now i will VP STOOP   ---- > 1112
+=========MEMORY=========
+[Free SpaceID: -1 , Start: 1 , End: 16 , Size: 16]
+[Used SpaceID: 1098 , Start: 17 , End: 24 , Size: 8]
+[Free SpaceID: -1 , Start: 25 , End: 32 , Size: 8]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Free SpaceID: -1 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1087 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1124 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1119 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 147
+I just sent a (fake or correct) VP_STOP wtih ID : 1098
+Now i will VP STOOP   ---- > 1087
+Time = 148
+I just sent a (fake or correct) VP_STOP wtih ID : 1119
+Now i will VP STOOP   ---- > 1098
+=========MEMORY=========
+[Free SpaceID: -1 , Start: 1 , End: 256 , Size: 256]
+[Used SpaceID: 1124 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1119 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+=========MEMORY=========
+[Free SpaceID: -1 , Start: 1 , End: 256 , Size: 256]
+[Used SpaceID: 1124 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1119 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 155
+size = 88
+lifetime = 50
+Time = 156
+size = 8
+lifetime = 5
+=========MEMORY=========
+[Used SpaceID: 1155 , Start: 1 , End: 128 , Size: 128]
+[Free SpaceID: -1 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1124 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1119 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+=========MEMORY=========
+[Used SpaceID: 1155 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1156 , Start: 129 , End: 136 , Size: 8]
+[Free SpaceID: -1 , Start: 137 , End: 144 , Size: 8]
+[Free SpaceID: -1 , Start: 145 , End: 160 , Size: 16]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Free SpaceID: -1 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1124 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1119 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 159
+size = 52
+lifetime = 35
+Time = 160
+I just sent a (fake or correct) VP_STOP wtih ID : 1124
+=========MEMORY=========
+[Used SpaceID: 1155 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1156 , Start: 129 , End: 136 , Size: 8]
+[Free SpaceID: -1 , Start: 137 , End: 144 , Size: 8]
+[Free SpaceID: -1 , Start: 145 , End: 160 , Size: 16]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1159 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1124 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1119 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 161
+I just sent a (fake or correct) VP_STOP wtih ID : 1156
+Now i will VP STOOP   ---- > 1124
+=========MEMORY=========
+[Used SpaceID: 1155 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1156 , Start: 129 , End: 136 , Size: 8]
+[Free SpaceID: -1 , Start: 137 , End: 144 , Size: 8]
+[Free SpaceID: -1 , Start: 145 , End: 160 , Size: 16]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1159 , Start: 193 , End: 256 , Size: 64]
+[Free SpaceID: -1 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1119 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 162
+size = 24
+lifetime = 33
+Now i will VP STOOP   ---- > 1156
+=========MEMORY=========
+[Used SpaceID: 1155 , Start: 1 , End: 128 , Size: 128]
+[Free SpaceID: -1 , Start: 129 , End: 192 , Size: 64]
+[Used SpaceID: 1159 , Start: 193 , End: 256 , Size: 64]
+[Free SpaceID: -1 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1119 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+=========MEMORY=========
+[Used SpaceID: 1155 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1162 , Start: 129 , End: 160 , Size: 32]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1159 , Start: 193 , End: 256 , Size: 64]
+[Free SpaceID: -1 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1119 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 165
+size = 54
+lifetime = 12
+=========MEMORY=========
+[Used SpaceID: 1155 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1162 , Start: 129 , End: 160 , Size: 32]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1159 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1165 , Start: 257 , End: 320 , Size: 64]
+[Free SpaceID: -1 , Start: 321 , End: 384 , Size: 64]
+[Used SpaceID: 1119 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 167
+size = 65
+lifetime = 44
+=========MEMORY=========
+[Used SpaceID: 1155 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1162 , Start: 129 , End: 160 , Size: 32]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1159 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1165 , Start: 257 , End: 320 , Size: 64]
+[Free SpaceID: -1 , Start: 321 , End: 384 , Size: 64]
+[Used SpaceID: 1119 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1167 , Size: 65
+Time = 176
+size = 17
+lifetime = 6
+Time = 177
+I just sent a (fake or correct) VP_STOP wtih ID : 1165
+=========MEMORY=========
+[Used SpaceID: 1155 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1162 , Start: 129 , End: 160 , Size: 32]
+[Used SpaceID: 1176 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1159 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1165 , Start: 257 , End: 320 , Size: 64]
+[Free SpaceID: -1 , Start: 321 , End: 384 , Size: 64]
+[Used SpaceID: 1119 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1167 , Size: 65
+Now i will VP STOOP   ---- > 1119
+Time = 178
+size = 77
+lifetime = 18
+Now i will VP STOOP   ---- > 1165
+=========MEMORY=========
+[Used SpaceID: 1155 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1162 , Start: 129 , End: 160 , Size: 32]
+[Used SpaceID: 1176 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1159 , Start: 193 , End: 256 , Size: 64]
+[Free SpaceID: -1 , Start: 257 , End: 512 , Size: 256]
+=========QUEUE=========
+ID: 1167 , Size: 65
+=========MEMORY=========
+[Used SpaceID: 1155 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1162 , Start: 129 , End: 160 , Size: 32]
+[Used SpaceID: 1176 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1159 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1178 , Start: 257 , End: 384 , Size: 128]
+[Free SpaceID: -1 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1167 , Size: 65
+Time = 182
+I just sent a (fake or correct) VP_STOP wtih ID : 1176
+Now i will VP STOOP   ---- > 1176
+=========MEMORY=========
+[Used SpaceID: 1155 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1162 , Start: 129 , End: 160 , Size: 32]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1159 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1178 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 185
+size = 72
+lifetime = 47
+=========MEMORY=========
+[Used SpaceID: 1155 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1162 , Start: 129 , End: 160 , Size: 32]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1159 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1178 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1185 , Size: 72
+Time = 189
+size = 17
+lifetime = 36
+=========MEMORY=========
+[Used SpaceID: 1155 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1162 , Start: 129 , End: 160 , Size: 32]
+[Used SpaceID: 1189 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1159 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1178 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1185 , Size: 72
+Time = 192
+size = 13
+lifetime = 30
+=========MEMORY=========
+[Used SpaceID: 1155 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1162 , Start: 129 , End: 160 , Size: 32]
+[Used SpaceID: 1189 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1159 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1178 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1185 , Size: 72
+ID: 1192 , Size: 13
+Time = 194
+I just sent a (fake or correct) VP_STOP wtih ID : 1159
+Time = 195
+I just sent a (fake or correct) VP_STOP wtih ID : 1162
+Now i will VP STOOP   ---- > 1159
+=========MEMORY=========
+[Used SpaceID: 1155 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1162 , Start: 129 , End: 160 , Size: 32]
+[Used SpaceID: 1189 , Start: 161 , End: 192 , Size: 32]
+[Free SpaceID: -1 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1178 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1185 , Size: 72
+ID: 1192 , Size: 13
+Time = 196
+I just sent a (fake or correct) VP_STOP wtih ID : 1178
+Now i will VP STOOP   ---- > 1162
+=========MEMORY=========
+[Used SpaceID: 1155 , Start: 1 , End: 128 , Size: 128]
+[Free SpaceID: -1 , Start: 129 , End: 160 , Size: 32]
+[Used SpaceID: 1189 , Start: 161 , End: 192 , Size: 32]
+[Free SpaceID: -1 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1178 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1185 , Size: 72
+ID: 1192 , Size: 13
+Now i will VP STOOP   ---- > 1178
+=========MEMORY=========
+[Used SpaceID: 1155 , Start: 1 , End: 128 , Size: 128]
+[Free SpaceID: -1 , Start: 129 , End: 160 , Size: 32]
+[Used SpaceID: 1189 , Start: 161 , End: 192 , Size: 32]
+[Free SpaceID: -1 , Start: 193 , End: 256 , Size: 64]
+[Free SpaceID: -1 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1185 , Size: 72
+ID: 1192 , Size: 13
+Time = 200
+size = 8
+lifetime = 29
+=========MEMORY=========
+[Used SpaceID: 1155 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1192 , Start: 129 , End: 144 , Size: 16]
+[Used SpaceID: 1200 , Start: 145 , End: 152 , Size: 8]
+[Free SpaceID: -1 , Start: 153 , End: 160 , Size: 8]
+[Used SpaceID: 1189 , Start: 161 , End: 192 , Size: 32]
+[Free SpaceID: -1 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 202
+size = 63
+lifetime = 8
+=========MEMORY=========
+[Used SpaceID: 1155 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1192 , Start: 129 , End: 144 , Size: 16]
+[Used SpaceID: 1200 , Start: 145 , End: 152 , Size: 8]
+[Free SpaceID: -1 , Start: 153 , End: 160 , Size: 8]
+[Used SpaceID: 1189 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1202 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 205
+I just sent a (fake or correct) VP_STOP wtih ID : 1155
+Now i will VP STOOP   ---- > 1155
+=========MEMORY=========
+[Free SpaceID: -1 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1192 , Start: 129 , End: 144 , Size: 16]
+[Used SpaceID: 1200 , Start: 145 , End: 152 , Size: 8]
+[Free SpaceID: -1 , Start: 153 , End: 160 , Size: 8]
+[Used SpaceID: 1189 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1202 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 208
+size = 38
+lifetime = 24
+Time = 209
+size = 83
+lifetime = 16
+=========MEMORY=========
+[Used SpaceID: 1208 , Start: 1 , End: 64 , Size: 64]
+[Free SpaceID: -1 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1192 , Start: 129 , End: 144 , Size: 16]
+[Used SpaceID: 1200 , Start: 145 , End: 152 , Size: 8]
+[Free SpaceID: -1 , Start: 153 , End: 160 , Size: 8]
+[Used SpaceID: 1189 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1202 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+--[EMPTY]--
+Time = 210
+I just sent a (fake or correct) VP_STOP wtih ID : 1202
+=========MEMORY=========
+[Used SpaceID: 1208 , Start: 1 , End: 64 , Size: 64]
+[Free SpaceID: -1 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1192 , Start: 129 , End: 144 , Size: 16]
+[Used SpaceID: 1200 , Start: 145 , End: 152 , Size: 8]
+[Free SpaceID: -1 , Start: 153 , End: 160 , Size: 8]
+[Used SpaceID: 1189 , Start: 161 , End: 192 , Size: 32]
+[Used SpaceID: 1202 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1209 , Size: 83
+Time = 211
+I just sent a (fake or correct) VP_STOP wtih ID : 1167
+Now i will VP STOOP   ---- > 1202
+=========MEMORY=========
+[Used SpaceID: 1208 , Start: 1 , End: 64 , Size: 64]
+[Free SpaceID: -1 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1192 , Start: 129 , End: 144 , Size: 16]
+[Used SpaceID: 1200 , Start: 145 , End: 152 , Size: 8]
+[Free SpaceID: -1 , Start: 153 , End: 160 , Size: 8]
+[Used SpaceID: 1189 , Start: 161 , End: 192 , Size: 32]
+[Free SpaceID: -1 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1209 , Size: 83
+=========MEMORY=========
+[Used SpaceID: 1208 , Start: 1 , End: 64 , Size: 64]
+[Free SpaceID: -1 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1192 , Start: 129 , End: 144 , Size: 16]
+[Used SpaceID: 1200 , Start: 145 , End: 152 , Size: 8]
+[Free SpaceID: -1 , Start: 153 , End: 160 , Size: 8]
+[Used SpaceID: 1189 , Start: 161 , End: 192 , Size: 32]
+[Free SpaceID: -1 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1209 , Size: 83
+Time = 216
+size = 43
+lifetime = 23
+=========MEMORY=========
+[Used SpaceID: 1208 , Start: 1 , End: 64 , Size: 64]
+[Used SpaceID: 1216 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1192 , Start: 129 , End: 144 , Size: 16]
+[Used SpaceID: 1200 , Start: 145 , End: 152 , Size: 8]
+[Free SpaceID: -1 , Start: 153 , End: 160 , Size: 8]
+[Used SpaceID: 1189 , Start: 161 , End: 192 , Size: 32]
+[Free SpaceID: -1 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1209 , Size: 83
+Time = 222
+I just sent a (fake or correct) VP_STOP wtih ID : 1192
+=========MEMORY=========
+[Used SpaceID: 1208 , Start: 1 , End: 64 , Size: 64]
+[Used SpaceID: 1216 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1192 , Start: 129 , End: 144 , Size: 16]
+[Used SpaceID: 1200 , Start: 145 , End: 152 , Size: 8]
+[Free SpaceID: -1 , Start: 153 , End: 160 , Size: 8]
+[Used SpaceID: 1189 , Start: 161 , End: 192 , Size: 32]
+[Free SpaceID: -1 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1209 , Size: 83
+Time = 225
+I just sent a (fake or correct) VP_STOP wtih ID : 1189
+Time = 226
+I just sent a (fake or correct) VP_STOP wtih ID : 1209
+Now i will VP STOOP   ---- > 1189
+=========MEMORY=========
+[Used SpaceID: 1208 , Start: 1 , End: 64 , Size: 64]
+[Used SpaceID: 1216 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1192 , Start: 129 , End: 144 , Size: 16]
+[Used SpaceID: 1200 , Start: 145 , End: 152 , Size: 8]
+[Free SpaceID: -1 , Start: 153 , End: 160 , Size: 8]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Free SpaceID: -1 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1209 , Size: 83
+=========MEMORY=========
+[Used SpaceID: 1208 , Start: 1 , End: 64 , Size: 64]
+[Used SpaceID: 1216 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1192 , Start: 129 , End: 144 , Size: 16]
+[Used SpaceID: 1200 , Start: 145 , End: 152 , Size: 8]
+[Free SpaceID: -1 , Start: 153 , End: 160 , Size: 8]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Free SpaceID: -1 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1209 , Size: 83
+Time = 229
+I just sent a (fake or correct) VP_STOP wtih ID : 1200
+Now i will VP STOOP   ---- > 1200
+=========MEMORY=========
+[Used SpaceID: 1208 , Start: 1 , End: 64 , Size: 64]
+[Used SpaceID: 1216 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1192 , Start: 129 , End: 144 , Size: 16]
+[Free SpaceID: -1 , Start: 145 , End: 160 , Size: 16]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Free SpaceID: -1 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1209 , Size: 83
+Time = 232
+I just sent a (fake or correct) VP_STOP wtih ID : 1185
+Time = 233
+I just sent a (fake or correct) VP_STOP wtih ID : 1208
+=========MEMORY=========
+[Used SpaceID: 1208 , Start: 1 , End: 64 , Size: 64]
+[Used SpaceID: 1216 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1192 , Start: 129 , End: 144 , Size: 16]
+[Free SpaceID: -1 , Start: 145 , End: 160 , Size: 16]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Free SpaceID: -1 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1209 , Size: 83
+Now i will VP STOOP   ---- > 1208
+=========MEMORY=========
+[Free SpaceID: -1 , Start: 1 , End: 64 , Size: 64]
+[Used SpaceID: 1216 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1192 , Start: 129 , End: 144 , Size: 16]
+[Free SpaceID: -1 , Start: 145 , End: 160 , Size: 16]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Free SpaceID: -1 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1209 , Size: 83
+Time = 236
+size = 30
+lifetime = 45
+=========MEMORY=========
+[Used SpaceID: 1236 , Start: 1 , End: 32 , Size: 32]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1216 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1192 , Start: 129 , End: 144 , Size: 16]
+[Free SpaceID: -1 , Start: 145 , End: 160 , Size: 16]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Free SpaceID: -1 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1209 , Size: 83
+Time = 239
+I just sent a (fake or correct) VP_STOP wtih ID : 1216
+Now i will VP STOOP   ---- > 1216
+=========MEMORY=========
+[Used SpaceID: 1236 , Start: 1 , End: 32 , Size: 32]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Free SpaceID: -1 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1192 , Start: 129 , End: 144 , Size: 16]
+[Free SpaceID: -1 , Start: 145 , End: 160 , Size: 16]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Free SpaceID: -1 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1209 , Size: 83
+Time = 243
+size = 46
+lifetime = 42
+=========MEMORY=========
+[Used SpaceID: 1236 , Start: 1 , End: 32 , Size: 32]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1243 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1192 , Start: 129 , End: 144 , Size: 16]
+[Free SpaceID: -1 , Start: 145 , End: 160 , Size: 16]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Free SpaceID: -1 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1209 , Size: 83
+Time = 245
+size = 99
+lifetime = 26
+=========MEMORY=========
+[Used SpaceID: 1236 , Start: 1 , End: 32 , Size: 32]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1243 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1192 , Start: 129 , End: 144 , Size: 16]
+[Free SpaceID: -1 , Start: 145 , End: 160 , Size: 16]
+[Free SpaceID: -1 , Start: 161 , End: 192 , Size: 32]
+[Free SpaceID: -1 , Start: 193 , End: 256 , Size: 64]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1209 , Size: 83
+ID: 1245 , Size: 99
+Now i will VP STOOP   ---- > 1192
+Time = 253
+size = 48
+lifetime = 22
+=========MEMORY=========
+[Used SpaceID: 1236 , Start: 1 , End: 32 , Size: 32]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1243 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1209 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1167 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1245 , Size: 99
+ID: 1253 , Size: 48
+Now i will VP STOOP   ---- > 1167
+Time = 258
+size = 82
+lifetime = 28
+=========MEMORY=========
+[Used SpaceID: 1236 , Start: 1 , End: 32 , Size: 32]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1243 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1209 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1253 , Start: 385 , End: 448 , Size: 64]
+[Free SpaceID: -1 , Start: 449 , End: 512 , Size: 64]
+=========QUEUE=========
+ID: 1245 , Size: 99
+ID: 1258 , Size: 82
+Now i will VP STOOP   ---- > 1209
+Time = 271
+I just sent a (fake or correct) VP_STOP wtih ID : 1245
+Time = 272
+size = 96
+lifetime = 48
+=========MEMORY=========
+[Used SpaceID: 1236 , Start: 1 , End: 32 , Size: 32]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1243 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1258 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1253 , Start: 385 , End: 448 , Size: 64]
+[Free SpaceID: -1 , Start: 449 , End: 512 , Size: 64]
+=========QUEUE=========
+ID: 1245 , Size: 99
+=========MEMORY=========
+[Used SpaceID: 1236 , Start: 1 , End: 32 , Size: 32]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1243 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1258 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1253 , Start: 385 , End: 448 , Size: 64]
+[Free SpaceID: -1 , Start: 449 , End: 512 , Size: 64]
+=========QUEUE=========
+ID: 1245 , Size: 99
+ID: 1272 , Size: 96
+Time = 275
+I just sent a (fake or correct) VP_STOP wtih ID : 1253
+=========MEMORY=========
+[Used SpaceID: 1236 , Start: 1 , End: 32 , Size: 32]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1243 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1258 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1185 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1253 , Start: 385 , End: 448 , Size: 64]
+[Free SpaceID: -1 , Start: 449 , End: 512 , Size: 64]
+=========QUEUE=========
+ID: 1245 , Size: 99
+ID: 1272 , Size: 96
+Now i will VP STOOP   ---- > 1185
+Time = 281
+I just sent a (fake or correct) VP_STOP wtih ID : 1236
+Time = 282
+size = 17
+lifetime = 3
+Now i will VP STOOP   ---- > 1236
+=========MEMORY=========
+[Free SpaceID: -1 , Start: 1 , End: 64 , Size: 64]
+[Used SpaceID: 1243 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1258 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1272 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1253 , Start: 385 , End: 448 , Size: 64]
+[Free SpaceID: -1 , Start: 449 , End: 512 , Size: 64]
+=========QUEUE=========
+ID: 1245 , Size: 99
+Time = 283
+size = 46
+lifetime = 1
+=========MEMORY=========
+[Used SpaceID: 1282 , Start: 1 , End: 32 , Size: 32]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1243 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1258 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1272 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1253 , Start: 385 , End: 448 , Size: 64]
+[Free SpaceID: -1 , Start: 449 , End: 512 , Size: 64]
+=========QUEUE=========
+ID: 1245 , Size: 99
+Time = 284
+I just sent a (fake or correct) VP_STOP wtih ID : 1283
+=========MEMORY=========
+[Used SpaceID: 1282 , Start: 1 , End: 32 , Size: 32]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1243 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1258 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1272 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1253 , Start: 385 , End: 448 , Size: 64]
+[Used SpaceID: 1283 , Start: 449 , End: 512 , Size: 64]
+=========QUEUE=========
+ID: 1245 , Size: 99
+Time = 285
+I just sent a (fake or correct) VP_STOP wtih ID : 1243
+Now i will VP STOOP   ---- > 1283
+=========MEMORY=========
+[Used SpaceID: 1282 , Start: 1 , End: 32 , Size: 32]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Used SpaceID: 1243 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1258 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1272 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1253 , Start: 385 , End: 448 , Size: 64]
+[Free SpaceID: -1 , Start: 449 , End: 512 , Size: 64]
+=========QUEUE=========
+ID: 1245 , Size: 99
+Time = 286
+I just sent a (fake or correct) VP_STOP wtih ID : 1258
+Now i will VP STOOP   ---- > 1243
+=========MEMORY=========
+[Used SpaceID: 1282 , Start: 1 , End: 32 , Size: 32]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Free SpaceID: -1 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1258 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1272 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1253 , Start: 385 , End: 448 , Size: 64]
+[Free SpaceID: -1 , Start: 449 , End: 512 , Size: 64]
+=========QUEUE=========
+ID: 1245 , Size: 99
+Time = 287
+I just sent a (fake or correct) VP_STOP wtih ID : 1282
+=========MEMORY=========
+[Used SpaceID: 1282 , Start: 1 , End: 32 , Size: 32]
+[Free SpaceID: -1 , Start: 33 , End: 64 , Size: 32]
+[Free SpaceID: -1 , Start: 65 , End: 128 , Size: 64]
+[Used SpaceID: 1258 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1272 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1253 , Start: 385 , End: 448 , Size: 64]
+[Free SpaceID: -1 , Start: 449 , End: 512 , Size: 64]
+=========QUEUE=========
+ID: 1245 , Size: 99
+Now i will VP STOOP   ---- > 1282
+=========MEMORY=========
+[Free SpaceID: -1 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1258 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1272 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1253 , Start: 385 , End: 448 , Size: 64]
+[Free SpaceID: -1 , Start: 449 , End: 512 , Size: 64]
+=========QUEUE=========
+ID: 1245 , Size: 99
+Time = 291
+size = 42
+lifetime = 6
+Time = 292
+size = 43
+lifetime = 45
+=========MEMORY=========
+[Used SpaceID: 1245 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1258 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1272 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1253 , Start: 385 , End: 448 , Size: 64]
+[Used SpaceID: 1291 , Start: 449 , End: 512 , Size: 64]
+=========QUEUE=========
+--[EMPTY]--
+=========MEMORY=========
+[Used SpaceID: 1245 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1258 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1272 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1253 , Start: 385 , End: 448 , Size: 64]
+[Used SpaceID: 1291 , Start: 449 , End: 512 , Size: 64]
+=========QUEUE=========
+ID: 1292 , Size: 43
+Time = 295
+size = 28
+lifetime = 17
+=========MEMORY=========
+[Used SpaceID: 1245 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1258 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1272 , Start: 257 , End: 384 , Size: 128]
+[Used SpaceID: 1253 , Start: 385 , End: 448 , Size: 64]
+[Used SpaceID: 1291 , Start: 449 , End: 512 , Size: 64]
+=========QUEUE=========
+ID: 1292 , Size: 43
+ID: 1295 , Size: 28
+Time = 297
+I just sent a (fake or correct) VP_STOP wtih ID : 1291
+Now i will VP STOOP   ---- > 1253
+Now i will VP STOOP   ---- > 1291
+=========MEMORY=========
+[Used SpaceID: 1245 , Start: 1 , End: 128 , Size: 128]
+[Used SpaceID: 1258 , Start: 129 , End: 256 , Size: 128]
+[Used SpaceID: 1272 , Start: 257 , End: 384 , Size: 128]
+[Free SpaceID: -1 , Start: 385 , End: 512 , Size: 128]
+=========QUEUE=========
+ID: 1292 , Size: 43
+ID: 1295 , Size: 28
+*******************************
+ GINOMENO SHORE = 0.422031
+*******************************
+*******************************
+ MESH TIMH = 13.984375
+*******************************
